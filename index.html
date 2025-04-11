@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>工安檢查表單</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>工安檢查表單</h1>
+  <form id="inspectionForm">
+    <label>檢查地點：<input type="text" name="location" required></label><br/>
+    <label>檢查項目：<input type="text" name="item" required></label><br/>
+    <label>備註：<textarea name="notes"></textarea></label><br/>
+    <button type="submit">儲存表單</button>
+  </form>
+  <button id="syncBtn">同步送出資料</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

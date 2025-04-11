@@ -1,0 +1,9 @@
+{
+  "name": "工安檢查系統",
+  "short_name": "工安檢查",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "支援離線的工安檢查表單",
+  "icons": []
+}
