@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>工安檢查表單v3</title>
+  <title>工安檢查表單 v4.1</title>
   <link rel="stylesheet" href="./style.css" />
   <link rel="manifest" href="./manifest.json" />
 </head>
 <body>
-  <h1>工安檢查表單v3</h1>
+  <h1>工安檢查表單 v4.1</h1>
   <form id="inspectionForm">
     <label>檢查地點：<input type="text" name="location" required></label><br/>
     <label>檢查項目：<input type="text" name="item" required></label><br/>
     <label>備註：<textarea name="notes"></textarea></label><br/>
+    <label>拍照上傳：
+      <input type="file" accept="image/*" capture="environment" id="photoInput">
+    </label><br/>
+    <img id="preview" style="max-width:100%; margin-top:10px; display:none;"><br/>
     <button type="submit">儲存表單</button>
   </form>
   <button id="syncBtn">同步送出資料</button>

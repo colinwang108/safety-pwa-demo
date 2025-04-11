@@ -4,6 +4,6 @@
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "description": "支援離線的工安檢查表單",
+  "description": "支援離線、拍照、儲存功能的工安檢查表單",
   "icons": []
 }

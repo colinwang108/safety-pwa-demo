@@ -1,7 +1,7 @@
 self.addEventListener('install', (e) => {
   console.log('Service Worker 安裝中...');
   e.waitUntil(
-    caches.open('safety-cache-v3').then((cache) =>
+    caches.open('safety-cache-v41').then((cache) =>
       cache.addAll([
         './',
         './index.html',
