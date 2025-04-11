@@ -34,7 +34,7 @@ document.getElementById("syncBtn").addEventListener("click", () => {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
+  navigator.serviceWorker.register('./sw.js')
     .then(() => console.log("✅ Service Worker 註冊成功"))
     .catch(err => console.error("❌ Service Worker 註冊失敗", err));
 }
